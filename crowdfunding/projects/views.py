@@ -16,4 +16,4 @@ class ProjectList(APIView):
         #serialise all the projects
         serializer = ProjectSerializer(projects, many=True)
         # send all the serialized projects back in response body
-        return Response(serializer.dat
+        return Response(serializer.data)
