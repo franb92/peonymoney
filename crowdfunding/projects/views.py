@@ -17,3 +17,10 @@ class ProjectList(APIView):
         serializer = ProjectSerializer(projects, many=True)
         # send all the serialized projects back in response body
         return Response(serializer.data)
+
+    def post(self, request):
+        serializer = ProjectSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+    
