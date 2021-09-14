@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import Project, Pledge
+from .serializers import ProjectSerializer, PledgeSerializer
 
 class PledgeSerializer(serializers.Serializer):
     id = serializers.ReadOnlyField()
@@ -24,3 +25,6 @@ class ProjectSerializer(serializers.Serializer):
 
     def create(self, validated_data):
         return Project.objects.create(**validated_data)
+
+    class ProjectDetailSerializer(ProjectSerializer):
+        pledges = PledgeSerializer(many=True, read_only=True)
