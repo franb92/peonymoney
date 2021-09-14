@@ -1,7 +1,7 @@
 # Create your views here.
 from django.http import Http404
 from django.shortcuts import render
-from rest_framework import status
+from rest_framework import status, permissions
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .models import Project, Pledge
@@ -30,6 +30,7 @@ class PledgeList(APIView):
         )
 #for /projects
 class ProjectList(APIView):
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
     #for GET /projects
     def get(self, request):
