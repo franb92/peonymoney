@@ -13,7 +13,7 @@ class Project(models.Model):
         get_user_model(),
         on_delete=models.CASCADE,
         related_name='owner_projects'
-        )
+    )
 
 class Pledge(models.Model):
     amount = models.IntegerField()
