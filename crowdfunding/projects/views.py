@@ -44,7 +44,7 @@ class ProjectList(APIView):
     def post(self, request):
         serializer = ProjectSerializer(data=request.data)
         if serializer.is_valid():
-            serializer.save()
+            serializer.save(owner=request.user)
             return Response(serializer.data)
 
 class ProjectDetail(APIView):
@@ -59,3 +59,14 @@ class ProjectDetail(APIView):
         serializer = ProjectDetailSerializer(project)
         return Response(serializer.data)
 
+
+    def put(self, request, pk):
+        project = self.get_object(pk)
+        data = request.data
+        serializer = ProjectDetailSerializer(
+            instance=project,
+            data=data,
+            partial=True
+            )
+        if serializer.is_valid():
+            serializer.save()
