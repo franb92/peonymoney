@@ -6,6 +6,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .models import Project, Pledge
 from .serializers import ProjectSerializer, PledgeSerializer, ProjectDetailSerializer
+from .permissions import IsOwnerOrReadOnly
 
 class PledgeList(APIView):
     def get(self, request):
@@ -48,9 +49,16 @@ class ProjectList(APIView):
             return Response(serializer.data)
 
 class ProjectDetail(APIView):
+    permission_classes = [
+        permissions.IsAuthenticatedOrReadOnly,
+        IsOwnerOrReadOnly
+        ]
+
     def get_object(self, pk):
         try:
-            return Project.objects.get(pk=pk)
+            project = Project.objects.get(pk=pk)
+            self.check_object_permissions(self.request, project)
+            return project
         except Project.DoesNotExist:
             raise Http404
         
