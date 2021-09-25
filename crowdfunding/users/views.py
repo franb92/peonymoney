@@ -37,8 +37,8 @@ class CustomUserDetail(APIView):
             # raise an Http404 exception so that Django knows to show a 404
             raise Http404
 
-    # GET a single user's detail
+    #GET a single user's detail
     def get(self, request, pk):
-      	user = self.get_object(pk)
+        user = self.get_object(pk)
         serializer = CustomUserSerializer(user)
-      	return Response(serializer.data)
+        return Response(serializer.data)
