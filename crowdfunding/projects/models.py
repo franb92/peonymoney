@@ -5,6 +5,8 @@ from django.contrib.auth import get_user_model
 class Project(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField()
+    donated_by = models.CharField(max_length=200)
+    charity_name = models.CharField(max_length=200)
     goal = models.IntegerField()
     image = models.URLField()
     is_open = models.BooleanField()
