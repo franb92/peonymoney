@@ -1,10 +1,10 @@
 # Crowdfunding Django Project Rest Framework Project
 
 <b>Crowdfunding Project: Part A (Django Rest Framework) - Successful Deployment to Heroku:</b><br></br> 
-Heroku deployed project: https://powerful-taiga-02660.herokuapp.com
+Heroku deployed project: https://powerful-taiga-02660.herokuapp.comds<br></br>
 GitHub Repository: https://github.com/franb92/peonymoney
 <b>Successful Insomnia Tests:</b>
-
+<b>SuccessfulGETmethod: </b>/Users/biancafranettovich/Documents/She_Codes/Django_Rest_Framework/Crowdfunding_Project/peonymoney/Submissionscreenshots/SuccessfulGETmethod
 
 
 <b>Crowdfunding Project: Part B (React):</b>
