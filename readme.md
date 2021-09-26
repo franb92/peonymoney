@@ -6,7 +6,7 @@
 <b>Project submission:</b> https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/Crowdfunding%20Project%20Bianca%20Franettovich%20Submission.pdf <br></br>
 <b>Successful Insomnia Tests:</b><br></br>
 <b>Successful GET Method: </b>![alt text](https://github.com/franb92/peonymoney/blob/524b1f95cf6783051b4d08724dd05295fccc4de8/Submissionscreenshots/SuccessfulGETmethod.jpg?raw=true)
-<b>Successful POST Method: </b>![alt text](https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/?raw=true)<br></br>
+<b>Successful POST Method: </b>![alt text](https://github.com/franb92/peonymoney/blob/0393db3c0c7fd2b54cbb32f07ccc737dc1889a89/Submissionscreenshots/SuccessfulPOSTmethod.jpg?raw=true)<br></br>
 <b>Successful Token Method: </b>![alt text](https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/SuccessfulTokenMethod?raw=true)<br></br>
 
 
