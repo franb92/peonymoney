@@ -1,7 +1,7 @@
 # Plus Resources: Django Project Rest Framework Project
-<b>Crowdfunding Django Rest Framework Project.</b>
+<b>Crowdfunding Django Rest Framework Project.</b><br></br> 
 
-<b>Crowdfunding Project: Part A (Django Rest Framework):</b>
+<b>Crowdfunding Project: Part A (Django Rest Framework):</b><br></br> 
 Heroku deployed project: https://powerful-taiga-02660.herokuapp.com <br></br> 
 GitHub Repository: https://github.com/franb92/peonymoney
 
