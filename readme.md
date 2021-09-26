@@ -1,11 +1,11 @@
 # Crowdfunding Django Project Rest Framework Project
 
 <b>Crowdfunding Project: Part A (Django Rest Framework) - Successful Deployment to Heroku:</b><br></br> 
-<b>Heroku deployed project:</b> https://powerful-taiga-02660.herokuapp.comds<br></br>
+<b>Heroku deployed project:</b> https://powerful-taiga-02660.herokuapp.com<br></br>
 <b>GitHub Repository: </b>https://github.com/franb92/peonymoney<br></br>
 <b>Project submission:</b> https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/Crowdfunding%20Project%20Bianca%20Franettovich%20Submission.pdf <br></br>
 <b>Successful Insomnia Tests:</b><br></br>
-<b>Successful GET Method: </b>https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/SuccessfulGETmethod<br></br>
+<b>Successful GET Method: </b><img src=./Submissionsscreenshots/SuccessfulGETmethod.jpg<br></br>
 <b>Successful POST Method: </b>https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/<br></br>
 <b>Successful Token Method: </b> https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/SuccessfulTokenMethod<br></br>
 
