@@ -3,8 +3,11 @@
 <b>Crowdfunding Project: Part A (Django Rest Framework) - Successful Deployment to Heroku:</b><br></br> 
 Heroku deployed project: https://powerful-taiga-02660.herokuapp.comds<br></br>
 GitHub Repository: https://github.com/franb92/peonymoney
+Project submission: https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/Crowdfunding%20Project%20Bianca%20Franettovich%20Submission.pdf 
 <b>Successful Insomnia Tests:</b>
-<b>SuccessfulGETmethod: </b>/Users/biancafranettovich/Documents/She_Codes/Django_Rest_Framework/Crowdfunding_Project/peonymoney/Submissionscreenshots/SuccessfulGETmethod
+<b>Successful GET Method: </b>https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/SuccessfulGETmethod
+<b>Successful POST Method: </b>https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/<b>
+<b>Successful Token Method: <b> https://github.com/franb92/peonymoney/blob/e307929eebf7e6157a1eda00e0460ec1025aa62b/Submissionscreenshots/SuccessfulTokenMethod
 
 
 <b>Crowdfunding Project: Part B (React):</b>
