@@ -17,6 +17,7 @@ class ProjectSerializer(serializers.Serializer):
     id = serializers.ReadOnlyField()
     title = serializers.CharField(max_length=200)
     description = serializers.CharField(max_length=None)
+    charity_name = serializers.CharField(max_length=200)
     goal = serializers.IntegerField()
     image = serializers.URLField()
     is_open = serializers.BooleanField()
@@ -33,6 +34,7 @@ class ProjectDetailSerializer(serializers.Serializer):
         instance.title = validated_data.get('title',instance.title)
         instance.description = validated_data.get('description',
         instance.description)
+        instance.charity_name = validated_data.get('title',instance.title)
         instance.goal = validated_data.get('goal',instance.goal)
         instance.image = validated_data.get('image',instance.image)
         instance.is_open = validated_data.get('is_open',
