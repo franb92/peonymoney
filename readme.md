@@ -1,12 +1,13 @@
 # Plus Resources: Django Project Rest Framework Project
 <b>Crowdfunding Django Rest Framework Project.</b>
 
+<b>Crowdfunding Project: Part A (Django Rest Framework):</b>
 Heroku deployed project: https://powerful-taiga-02660.herokuapp.com <br></br> 
 GitHub Repository: https://github.com/franb92/peonymoney
 
 
 
-Part B (React):
+<b>Crowdfunding Project: Part B (React):</b>
 Overview of additional features I would like to include in React component of project;
 - Add in ‘project total’ to sum amount of pledges contributed to project
 - Ability to subscribe to a charity
